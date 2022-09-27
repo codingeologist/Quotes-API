@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(231deg, rgba(2,0,36,1) 0%, rgba(84,16,226,1) 0%, rgba(39,120,241,1) 60%, rgba(0,212,255,1) 100%); 
+}
+
+#parent {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+#textBody {
+  margin: 0;
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#auth {
+  margin: 0;
+  position: absolute;
+  vertical-align: middle;
+  text-align: right;
+  top: 55%;
+  transform: translateX(60%);
+  color: pink;
+  font-size: large;
+  font-style: oblique;
+}

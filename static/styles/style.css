@@ -35,7 +35,7 @@ body {
   text-align: right;
   top: 55%;
   transform: translateX(60%);
-  color: pink;
+  color: rgba(255, 192, 203, 0.226);
   font-size: large;
   font-style: oblique;
 }
